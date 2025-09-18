@@ -54,26 +54,26 @@ namespace larcv {
 
       std::vector<larcv::CRTHit> cset;
       for (size_t idx = 0; idx < crthits.size(); ++idx) {
-        auto const& crthit = crthits[idx];
+        // auto const& crthit = crthits[idx];
 
         larcv::CRTHit larcv_crthit;
         larcv_crthit.id(idx);
-        larcv_crthit.feb_id(crthit.feb_id);
-        larcv_crthit.pesmap(crthit.pesmap);
-        larcv_crthit.peshit(crthit.peshit);
-        larcv_crthit.ts0_s(crthit.ts0_s);
-        larcv_crthit.ts0_s_corr(crthit.ts0_s_corr);
-        larcv_crthit.ts0_ns(crthit.ts0_ns);
-        larcv_crthit.ts0_ns_corr(crthit.ts0_ns_corr);
-        larcv_crthit.ts1_ns(crthit.ts1_ns);
-        larcv_crthit.plane(crthit.plane);
-        larcv_crthit.x_pos(crthit.x_pos);
-        larcv_crthit.x_err(crthit.x_err);
-        larcv_crthit.y_pos(crthit.y_pos);
-        larcv_crthit.y_err(crthit.y_err);
-        larcv_crthit.z_pos(crthit.z_pos);
-        larcv_crthit.z_err(crthit.z_err);
-        larcv_crthit.tagger(crthit.tagger);
+        // larcv_crthit.feb_id(crthit.feb_id);
+        // larcv_crthit.pesmap(crthit.pesmap);
+        // larcv_crthit.peshit(crthit.peshit);
+        // larcv_crthit.ts0_s(crthit.ts0_s);
+        // larcv_crthit.ts0_s_corr(crthit.ts0_s_corr);
+        // larcv_crthit.ts0_ns(crthit.ts0_ns);
+        // larcv_crthit.ts0_ns_corr(crthit.ts0_ns_corr);
+        // larcv_crthit.ts1_ns(crthit.ts1_ns);
+        // larcv_crthit.plane(crthit.plane);
+        // larcv_crthit.x_pos(crthit.x_pos);
+        // larcv_crthit.x_err(crthit.x_err);
+        // larcv_crthit.y_pos(crthit.y_pos);
+        // larcv_crthit.y_err(crthit.y_err);
+        // larcv_crthit.z_pos(crthit.z_pos);
+        // larcv_crthit.z_err(crthit.z_err);
+        // larcv_crthit.tagger(crthit.tagger);
 
         cset.push_back(larcv_crthit);
       }
